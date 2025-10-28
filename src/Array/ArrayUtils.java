@@ -8,6 +8,7 @@ public class ArrayUtils {
         items = new int[size];
         itemsCount = 0;
     }
+  
 
     // Method to Check if array is full or not
     boolean isFull() {
@@ -130,12 +131,16 @@ public class ArrayUtils {
 
         if (newSize <= items.length) {
             System.out.println("Can't Enlarge array");
+            return; 
         }
-        int[] newArray = new int[newSize];
+        
+        int[] newArray = new int[newSize];   
 
         for (int i = 0; i < items.length; i++) {
             newArray[i] = items[i];
         }
+
         items = newArray;
     }
 }
+
