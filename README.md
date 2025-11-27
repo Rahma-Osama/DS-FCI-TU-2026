@@ -96,7 +96,11 @@ Implements classical sorting algorithms.
 * **Insertion Sort** – Sorts by inserting each element in the correct position.
 
 ---
+## 📂 Presentations
 
+The project presentations are included in the repository in the `presentation/` folder
+
+---
 ## ▶️ Running the Project
 
 Each module can be run individually via its test class.
